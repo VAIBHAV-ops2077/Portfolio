@@ -1,87 +1,275 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vaibhav Kawde - Resume</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Vaibhav Kawde – B.Tech CSE undergraduate with experience in full-stack development, cloud/DevOps, and automation. Seeking internship and entry-level software engineering roles.">
+  <title>Vaibhav Kawde – Software Developer Resume</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <header class="header">
-            <div class="info">
-                <h1>Vaibhav Kawde</h1>
-                <p>B.Tech CSE</p>
-                <p>Navi Mumbai, Kharghar, Sector 12 | Phone: 9373262398 | 2024.vaibhavk@isu.ac.in</p>
-            </div>
-            <div class="photo">
-                <img src="vaibhav.png" alt="Vaibhav Kawde Photo">
-            </div>
-        </header>
 
-        <section class="section">
-            <h2>Education</h2>
-            <p><strong>Bachelor of Technology (B.Tech) in Computer Science Engineering</strong><br>
-            ITM Skills University, Kharghar<br>
-            Year of Graduation: 2028</p>
-        </section>
+<div class="page">
 
-        <section class="section">
-            <h2>Skills</h2>
-            <ul>
-                <li><strong>Programming Languages:</strong> Python, C++, JavaScript, HTML, CSS</li>
-                <li><strong>Front-End Development:</strong> React, Tailwind CSS</li>
-                <li><strong>Back-End Knowledge:</strong> Node.js, Express.js, MongoDB</li>
-                <li><strong>Game Development:</strong> Unreal Engine, Blender</li>
-                <li><strong>Tools & Technologies:</strong> Git, Linux, Cloud Computing, Flutter Flow, N8N, LangFlow, Airtable, STLC</li>
-            </ul>
-        </section>
+  <!-- ══════════════════════ SIDEBAR ══════════════════════ -->
+  <aside class="sidebar">
 
-        <section class="section">
-            <h2>Languages</h2>
-            <p>English, Hindi (Native), Marathi (Native), German (Intermediate)</p>
-        </section>
-
-        <section class="section">
-            <h2>Profile</h2>
-            <p>Motivated and skilled Computer Science Engineering student at ITM Skills University, Kharghar, 
-            with a strong foundation in front-end development, programming languages, and game development. 
-            Experienced in real-world industry applications through an internship at LetsUpgrade. 
-            Passionate about building innovative solutions, with expertise in both software and embedded systems development.</p>
-        </section>
-
-        <section class="section">
-            <h2>Experience</h2>
-            <h3>Intern, LetsUpgrade</h3>
-            <ul>
-                <li>Gained hands-on experience working on real-world projects and improving software development skills.</li>
-                <li>Collaborated with a team to develop web applications and optimize user interfaces.</li>
-                <li>Strengthened problem-solving and debugging abilities in a professional setting.</li>
-            </ul>
-        </section>
-
-        <section class="section">
-            <h2>Projects</h2>
-            <h3>Automated Order Tracking & Notification System (n8n)</h3>
-            <ul>
-                <li>Designed and deployed an end-to-end order tracking automation using n8n, with Airtable as the central database to monitor real-time order stage updates across the entire lifecycle.</li>
-                <li>Implemented advanced conditional logic to accurately detect order status changes, trigger workflow events only on genuine updates, and prevent duplicate notifications.</li>
-                <li>Automated customer communication via the Telegram Bot API, delivering real-time, stage-based updates and integrating courier tracking logic to reduce manual operations.</li>
-            </ul>
-        </section>
-
-        <section class="section">
-            <h2>Personal Projects & Interests</h2>
-            <ul>
-                <li>Passionate about software development, Automations, QA, game design, and IoT.</li>
-                <li>Actively learning new technologies and contributing to open-source projects.</li>
-            </ul>
-        </section>
-
-        <footer class="footer">
-            <p><strong>Github:</strong><a href="https://github.com/VAIBHAV-ops2077">VAIBHAV-ops2077</a></p>
-            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/vaibhav-kawde-4a1a13321/">View Profile</a></p>
-        </footer>
+    <!-- Avatar -->
+    <div class="avatar-wrap">
+      <img src="vaibhav.png" alt="Vaibhav Kawde">
     </div>
+
+    <!-- Name -->
+    <div class="name-block">
+      <h1>Vaibhav Kawde</h1>
+      <p class="tagline">CS Undergraduate · Software Developer</p>
+    </div>
+
+    <!-- Contact -->
+    <div class="s-section">
+      <h3>Contact</h3>
+      <div class="contact-item">
+        <span class="icon">📍</span>
+        <span>Navi Mumbai, Maharashtra</span>
+      </div>
+      <div class="contact-item">
+        <span class="icon">📧</span>
+        <a href="mailto:2024.vaibhavk@isu.ac.in">2024.vaibhavk@isu.ac.in</a>
+      </div>
+      <div class="contact-item">
+        <span class="icon">📞</span>
+        <span>+91 93732 62398</span>
+      </div>
+      <div class="contact-item">
+        <span class="icon">🐙</span>
+        <a href="https://github.com/VAIBHAV-ops2077" target="_blank">github.com/VAIBHAV-ops2077</a>
+      </div>
+      <div class="contact-item">
+        <span class="icon">💼</span>
+        <a href="https://www.linkedin.com/in/vaibhav-kawde-4a1a13321/" target="_blank">linkedin.com/in/vaibhav-kawde</a>
+      </div>
+    </div>
+
+    <!-- Education -->
+    <div class="s-section">
+      <h3>Education</h3>
+      <div class="edu-block">
+        <div class="school">ITM Skills University</div>
+        <div class="degree">B.Tech – Computer Science Engineering</div>
+        <div class="year">Expected Graduation: 2028</div>
+      </div>
+    </div>
+
+    <!-- Technical Skills -->
+    <div class="s-section">
+      <h3>Technical Skills</h3>
+
+      <div class="skill-cat">
+        <span class="cat-label">Languages</span>
+        <div class="skill-tags">
+          <span class="skill-tag">Python</span>
+          <span class="skill-tag">JavaScript</span>
+          <span class="skill-tag">C++</span>
+          <span class="skill-tag">Java</span>
+          <span class="skill-tag">HTML</span>
+          <span class="skill-tag">CSS</span>
+        </div>
+      </div>
+
+      <div class="skill-cat">
+        <span class="cat-label">Frontend</span>
+        <div class="skill-tags">
+          <span class="skill-tag">React</span>
+          <span class="skill-tag">Tailwind CSS</span>
+        </div>
+      </div>
+
+      <div class="skill-cat">
+        <span class="cat-label">Backend</span>
+        <div class="skill-tags">
+          <span class="skill-tag">Node.js</span>
+          <span class="skill-tag">Express.js</span>
+          <span class="skill-tag">Flask</span>
+        </div>
+      </div>
+
+      <div class="skill-cat">
+        <span class="cat-label">Databases</span>
+        <div class="skill-tags">
+          <span class="skill-tag">MongoDB</span>
+          <span class="skill-tag">MySQL</span>
+          <span class="skill-tag">Firebase</span>
+          <span class="skill-tag">Airtable</span>
+        </div>
+      </div>
+
+      <div class="skill-cat">
+        <span class="cat-label">Cloud / DevOps</span>
+        <div class="skill-tags">
+          <span class="skill-tag">AWS</span>
+          <span class="skill-tag">Docker</span>
+          <span class="skill-tag">Kubernetes</span>
+          <span class="skill-tag">Linux</span>
+          <span class="skill-tag">Git</span>
+          <span class="skill-tag">Prometheus</span>
+          <span class="skill-tag">Grafana</span>
+        </div>
+      </div>
+
+      <div class="skill-cat">
+        <span class="cat-label">Automation / AI</span>
+        <div class="skill-tags">
+          <span class="skill-tag">n8n</span>
+          <span class="skill-tag">LangFlow</span>
+          <span class="skill-tag">Telegram Bot API</span>
+        </div>
+      </div>
+
+      <div class="skill-cat">
+        <span class="cat-label">Other</span>
+        <div class="skill-tags">
+          <span class="skill-tag">Flutter</span>
+          <span class="skill-tag">Unreal Engine</span>
+          <span class="skill-tag">Blender</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Languages -->
+    <div class="s-section">
+      <h3>Languages</h3>
+      <div class="lang-list">
+        English &nbsp;·&nbsp; Hindi (Native)<br>
+        Marathi (Native) &nbsp;·&nbsp; German (Intermediate)
+      </div>
+    </div>
+
+  </aside>
+
+  <!-- ══════════════════════ MAIN ════════════════════════ -->
+  <main class="main">
+
+    <!-- Summary -->
+    <section class="m-section">
+      <h2>Professional Summary</h2>
+      <p class="summary-text">
+        Computer Science undergraduate with 6 months of industry internship experience and practical exposure across full-stack development, cloud/DevOps, and automation engineering. Built and deployed web applications using React, Node.js, MongoDB, and AWS; containerised systems with Docker and Kubernetes; and automated real-world operational workflows using n8n, Airtable, and the Telegram Bot API.
+      </p>
+    </section>
+
+    <!-- Experience -->
+    <section class="m-section">
+      <h2>Experience</h2>
+
+      <!-- Role 2 -->
+      <div class="entry">
+        <div class="entry-header">
+          <span class="role">Operations &amp; Automation Intern</span>
+          <span class="date">Apr 2026 – Jul 2026</span>
+        </div>
+        <div class="entry-header">
+          <span class="company">LetsUpgrade Edtech Pvt. Ltd.</span>
+          <span class="date">3 months · Remote</span>
+        </div>
+        <ul>
+          <li>Built n8n automation workflows connected to Airtable to process order-stage and enrollment data, using conditional logic to trigger actions only on verified state changes and suppress duplicate notifications.</li>
+          <li>Automated customer communication via Telegram Bot API, delivering stage-specific order-status alerts and eliminating manual follow-up across operational pipelines.</li>
+          <li>Developed WhatsApp and email automation workflows for enrollment confirmations, follow-ups, and daily reporting, processing large volumes of signup data with validation and deduplication checks.</li>
+          <li>Aggregated Airtable records into operational dashboards and structured reports tracking enrollment, payment status, and order-stage metrics for internal visibility.</li>
+        </ul>
+      </div>
+
+      <!-- Role 1 -->
+      <div class="entry">
+        <div class="entry-header">
+          <span class="role">Technology Intern</span>
+          <span class="date">Jan 2026 – Mar 2026</span>
+        </div>
+        <div class="entry-header">
+          <span class="company">LetsUpgrade Edtech Pvt. Ltd.</span>
+          <span class="date">3 months · Remote</span>
+        </div>
+        <ul>
+          <li>Audited, cleaned, and validated large datasets of student signup and enrollment records in Airtable, resolving inconsistencies to maintain data accuracy across operational workflows.</li>
+          <li>Researched n8n-based automation tooling and produced structured evaluation reports to guide implementation of workflow solutions for data handling and notification use cases.</li>
+          <li>Prototyped conditional automation logic in n8n to route enrollment data and trigger follow-up actions based on user status and business rules, reducing reliance on manual processing.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="m-section">
+      <h2>Projects</h2>
+
+      <!-- StockSync -->
+      <div class="project-entry">
+        <div class="project-header">
+          <span class="proj-name"><a href="https://stock-sync-indol.vercel.app/" target="_blank" style="color:inherit;text-decoration:none;">StockSync</a></span>
+          <span class="proj-stack">React · Node.js · MongoDB</span>
+        </div>
+        <p style="font-size:10px;color:#374151;margin-top:4px;">Inventory management application for tracking stock levels, products, and supply-chain data — built to solve manual inventory tracking problems for small businesses.</p>
+      </div>
+
+      <!-- Converge -->
+      <div class="project-entry">
+        <div class="project-header">
+          <span class="proj-name"><a href="https://converge-sandy.vercel.app/" target="_blank" style="color:inherit;text-decoration:none;">Converge</a></span>
+          <span class="proj-stack">HTML · CSS · JavaScript</span>
+        </div>
+        <p style="font-size:10px;color:#374151;margin-top:4px;">Retail and business management SaaS platform for Indian kirana stores, pharmacies, and small retailers — covering billing, inventory, UPI payments, WhatsApp ordering, and digital credit management.</p>
+      </div>
+
+      <!-- CoWriter -->
+      <div class="project-entry">
+        <div class="project-header">
+          <span class="proj-name"><a href="https://cowriter-test.vercel.app/" target="_blank" style="color:inherit;text-decoration:none;">CoWriter</a></span>
+          <span class="proj-stack">React · MongoDB · Firebase Auth · Node.js</span>
+        </div>
+        <p style="font-size:10px;color:#374151;margin-top:4px;">Collaborative notes and writing application with Firebase Authentication for user sessions and a Node.js/MongoDB backend for persistent, multi-user document storage.</p>
+      </div>
+
+      <!-- OceanicX -->
+      <div class="project-entry">
+        <div class="project-header">
+          <span class="proj-name">OceanicX</span>
+          <span class="proj-stack">Docker · Kubernetes · Prometheus · Grafana · Linux</span>
+        </div>
+        <p style="font-size:10px;color:#374151;margin-top:4px;">Containerised multi-service application deployed on Kubernetes with Prometheus metrics scraping and Grafana dashboards for real-time service health and observability.</p>
+      </div>
+
+      <!-- PassportPro -->
+      <div class="project-entry">
+        <div class="project-header">
+          <span class="proj-name">PassportPro</span>
+          <span class="proj-stack">React · AWS</span>
+        </div>
+        <p style="font-size:10px;color:#374151;margin-top:4px;">Cloud-based identity verification application with a React frontend deployed on AWS infrastructure, handling document upload, verification workflow, and cloud storage.</p>
+      </div>
+
+      <!-- Automated Order Tracking -->
+      <div class="project-entry">
+        <div class="project-header">
+          <span class="proj-name">Automated Order Tracking &amp; Notification System</span>
+          <span class="proj-stack">n8n · Airtable · Telegram Bot API</span>
+        </div>
+        <p style="font-size:10px;color:#374151;margin-top:4px;">n8n automation pipeline using Airtable for order-stage tracking and Telegram Bot API for customer notifications, with conditional logic to prevent duplicate alerts.</p>
+      </div>
+
+    </section>
+
+    <!-- Hackathons -->
+    <section class="m-section">
+      <h2>Hackathons &amp; Technical Events</h2>
+      <div class="achievement-item">
+        <span><strong>GDG Cloud Mumbai – Build &amp; Grow AI Hackathon</strong> &nbsp;·&nbsp; Google Developer Group Cloud Mumbai hackathon centred on building and deploying AI-driven applications on cloud infrastructure.</span>
+      </div>
+      <div class="achievement-item">
+        <span><strong>Open-Source Contribution &amp; GitHub Activity</strong> &nbsp;·&nbsp; Actively maintains public repositories across full-stack, automation, and cloud/DevOps projects on GitHub.</span>
+      </div>
+    </section>
+
+  </main>
+</div>
+
 </body>
 </html>
